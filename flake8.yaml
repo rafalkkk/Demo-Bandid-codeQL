@@ -1,4 +1,4 @@
-name: Python Static Analysis v+
+name: Python Static Analysis
 
 on:
   push:
@@ -20,8 +20,9 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install flake8 pylint
+        pip install flake8 pylint bandit
     - name: Run static analysis
       run: |
-        flake8 .
+        flake8 . --select=E,F,W,C,S
         pylint .
+        bandit -r .
