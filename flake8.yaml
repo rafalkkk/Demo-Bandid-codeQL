@@ -21,6 +21,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install flake8 pylint bandit
+        pip install --upgrade sqlparse # Update sqlparse to the latest version
     - name: Run static analysis
       run: |
         flake8 . --select=E,F,W,C,S
