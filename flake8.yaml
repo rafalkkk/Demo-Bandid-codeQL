@@ -1,4 +1,4 @@
-name: Python Static Analysis
+name: Python Static Analysis v+
 
 on:
   push:
