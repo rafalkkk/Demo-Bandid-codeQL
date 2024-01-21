@@ -6,16 +6,16 @@ c = conn.cursor()
 username = input("Enter username: ")
 password = input("Enter password: ")
 
-query1 = f"SELECT * FROM users WHERE name = '{username}' AND password = '{password}'"
+# query1 = f"SELECT * FROM users WHERE name = '{username}' AND password = '{password}'"
 
-print(f'User validation with {query1}')
-c.execute(query1)
-result = c.fetchone()
+# print(f'User validation with {query1}')
+# c.execute(query1)
+# result = c.fetchone()
 
-if result:
-    print("Login successful")
-else:
-    print("Login failed")
+# if result:
+#     print("Login successful")
+# else:
+#     print("Login failed")
 
 
 #query2 = f"SELECT * FROM users WHERE name = ? AND password = ?"
