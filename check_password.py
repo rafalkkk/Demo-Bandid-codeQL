@@ -18,11 +18,12 @@ password = input("Enter password: ")
 #     print("Login failed")
 
 
-#query2 = f"SELECT * FROM users WHERE name = ? AND password = ?"
+query2 = f"SELECT * FROM users WHERE name = ? AND password = ?"
+print(f'User validation with {query2}')
+c.execute(query2, (username, password))
 
-#print(f'User validation with {query2}')
 # lets correct it!
-c.execute("SELECT * FROM users WHERE name = ? AND password = ?", (username, password))
+#c.execute("SELECT * FROM users WHERE name = ? AND password = ?", (username, password))
 result = c.fetchone()
 
 if result:
