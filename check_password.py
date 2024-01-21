@@ -21,7 +21,7 @@ password = input("Enter password: ")
 #query2 = f"SELECT * FROM users WHERE name = ? AND password = ?"
 
 #print(f'User validation with {query2}')
-#
+# lets correct it!
 c.execute("SELECT * FROM users WHERE name = ? AND password = ?", (username, password))
 result = c.fetchone()
 
