@@ -1,4 +1,4 @@
-name: Python Static Analysis
+name: Flake - flake-SQL
 
 on:
   push:

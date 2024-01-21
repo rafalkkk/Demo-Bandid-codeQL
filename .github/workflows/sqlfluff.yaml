@@ -1,4 +1,4 @@
-name: SQL Static Analysis
+name: SQL Static Analysis SQLFLUFF
 
 on:
   push:
