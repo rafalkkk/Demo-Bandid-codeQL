@@ -1,4 +1,4 @@
-name: 04-SQLFLUFF - SQL Linting SQLFLUFF
+name: 03-SQLFLUFF - SQL Linting SQLFLUFF
 
 on:
   push:
