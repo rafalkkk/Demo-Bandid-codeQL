@@ -1,4 +1,4 @@
-name: Python Code Security Check BANDIT
+name: 01-BANDID - Python Code Security Check 
 
 on:
   push:

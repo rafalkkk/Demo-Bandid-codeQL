@@ -1,4 +1,4 @@
-name: Flake - flake-SQL
+name: 03-Flake8 - Flake-SQL
 
 on:
   push:
